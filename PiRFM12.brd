@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="39.3700787" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.25" altunitdist="mm" altunit="mm"/>
+<grid distance="0.999999999" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.25" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -141,11 +141,11 @@
 <wire x1="34.5" y1="0" x2="34.5" y2="25.75" width="0" layer="20"/>
 <wire x1="34.5" y1="25.75" x2="0" y2="25.75" width="0" layer="20"/>
 <wire x1="0" y1="25.75" x2="0" y2="0" width="0" layer="20"/>
-<text x="17.1" y="1.5" size="1.778" layer="25" align="center">PiRFM12</text>
-<text x="7" y="5.25" size="1.016" layer="25" rot="R180" align="center">felitek.de</text>
+<text x="17.1" y="1.5" size="1.778" layer="25" font="vector" align="center">PiRFM12</text>
+<text x="5.75" y="5.25" size="1.27" layer="25" font="vector" rot="R180" align="center">felitek.de</text>
 <text x="0.5" y="19.5" size="1.016" layer="25" align="center-left">1</text>
-<text x="7" y="2" size="1.016" layer="25" rot="R180" align="center-left">ANT</text>
-<text x="27" y="2" size="1.016" layer="25" align="center-left">ANT</text>
+<text x="7.75" y="2" size="1.27" layer="25" font="vector" rot="R180" align="center-left">ANT</text>
+<text x="27" y="2" size="1.27" layer="25" font="vector" align="center-left">ANT</text>
 <hole x="2.25" y="2.5" drill="3.2"/>
 <hole x="32" y="2.5" drill="3.2"/>
 </plain>
@@ -157,26 +157,6 @@
 <wire x1="-7" y1="6" x2="9" y2="6" width="0.127" layer="21"/>
 <wire x1="9" y1="6" x2="9" y2="-10" width="0.127" layer="21"/>
 <wire x1="9" y1="-10" x2="-7" y2="-10" width="0.127" layer="21"/>
-<wire x1="-4.382" y1="-6" x2="-5.5" y2="-4.882" width="0.127" layer="21" curve="-90"/>
-<wire x1="-5.5" y1="-4.882" x2="-5.5" y2="-4.618" width="0.127" layer="21"/>
-<wire x1="-5.5" y1="-4.618" x2="-4.382" y2="-3.5" width="0.127" layer="21" curve="-90"/>
-<wire x1="-4.382" y1="-3.5" x2="6.382" y2="-3.5" width="0.127" layer="21"/>
-<wire x1="6.382" y1="-3.5" x2="7.5" y2="-4.618" width="0.127" layer="21" curve="-90"/>
-<wire x1="7.5" y1="-4.618" x2="6.118" y2="-6" width="0.127" layer="21" curve="-90"/>
-<wire x1="6.118" y1="-6" x2="-4.382" y2="-6" width="0.127" layer="21"/>
-<wire x1="5.5" y1="2" x2="6.5" y2="2" width="0.127" layer="21"/>
-<wire x1="6.5" y1="2" x2="6.5" y2="0.5" width="0.127" layer="21"/>
-<wire x1="6.5" y1="0.5" x2="5.5" y2="0.5" width="0.127" layer="21"/>
-<wire x1="5.5" y1="0.5" x2="5.5" y2="2" width="0.127" layer="21"/>
-<wire x1="5.5" y1="-0.5" x2="5.5" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="5.5" y1="-1.5" x2="7.5" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="7.5" y1="-1.5" x2="7.5" y2="-0.5" width="0.127" layer="21"/>
-<wire x1="7.5" y1="-0.5" x2="5.5" y2="-0.5" width="0.127" layer="21"/>
-<wire x1="3.5" y1="1.5" x2="3.5" y2="0" width="0.127" layer="21"/>
-<wire x1="3.5" y1="0" x2="4.5" y2="0" width="0.127" layer="21"/>
-<wire x1="4.5" y1="0" x2="4.5" y2="1.5" width="0.127" layer="21"/>
-<wire x1="4.5" y1="1.5" x2="3.5" y2="1.5" width="0.127" layer="21"/>
-<circle x="-0.5" y="-0.635" radius="2.5" width="0.127" layer="21"/>
 <smd name="1" x="-5" y="-10" dx="1.5" dy="3" layer="1"/>
 <smd name="2" x="-3" y="-10" dx="1.5" dy="3" layer="1"/>
 <smd name="3" x="-1" y="-10" dx="1.5" dy="3" layer="1"/>
@@ -191,21 +171,21 @@
 <smd name="12" x="-1" y="6" dx="1.5" dy="3" layer="1"/>
 <smd name="13" x="-3" y="6" dx="1.5" dy="3" layer="1"/>
 <smd name="14" x="-5" y="6" dx="1.5" dy="3" layer="1"/>
-<text x="4" y="-4" size="1.27" layer="21" rot="R180">RFM12</text>
-<text x="-4.5" y="-8.23" size="0.6096" layer="21" rot="R90">SDO</text>
-<text x="-3" y="-8.23" size="0.6096" layer="21" rot="R90">nIRQ</text>
-<text x="-0.5" y="-8.23" size="0.6096" layer="21" rot="R90">FSK</text>
-<text x="1.5" y="-8.23" size="0.6096" layer="21" rot="R90">DCLK</text>
-<text x="3.5" y="-8.23" size="0.6096" layer="21" rot="R90">CLK</text>
-<text x="5" y="-8.23" size="0.6096" layer="21" rot="R90">nRES</text>
-<text x="7.5" y="-8.23" size="0.6096" layer="21" rot="R90">GND</text>
-<text x="-4.5" y="2.365" size="0.6096" layer="21" rot="R90">nSEL</text>
-<text x="-2.5" y="2.865" size="0.6096" layer="21" rot="R90">SCK</text>
-<text x="-0.5" y="2.865" size="0.6096" layer="21" rot="R90">SDI</text>
-<text x="1.5" y="2.365" size="0.6096" layer="21" rot="R90">nINT</text>
-<text x="3.5" y="2.865" size="0.6096" layer="21" rot="R90">GND</text>
-<text x="5.5" y="2.865" size="0.6096" layer="21" rot="R90">Vdd</text>
-<text x="7.5" y="2.865" size="0.6096" layer="21" rot="R90">ANT</text>
+<text x="1" y="-2" size="1.27" layer="21" rot="R180" align="center">RFM12</text>
+<text x="-5" y="-8" size="0.8128" layer="21" font="vector" ratio="12" rot="R90" align="center-left">SDO</text>
+<text x="-3" y="-8" size="0.8128" layer="21" font="vector" ratio="12" rot="R90" align="center-left">nIRQ</text>
+<text x="-1" y="-8" size="0.8128" layer="21" font="vector" ratio="12" rot="R90" align="center-left">FSK</text>
+<text x="1" y="-8" size="0.8128" layer="21" font="vector" ratio="12" rot="R90" align="center-left">DCLK</text>
+<text x="3" y="-8" size="0.8128" layer="21" font="vector" ratio="12" rot="R90" align="center-left">CLK</text>
+<text x="5" y="-8" size="0.8128" layer="21" font="vector" ratio="12" rot="R90" align="center-left">nRES</text>
+<text x="7" y="-8" size="0.8128" layer="21" font="vector" ratio="12" rot="R90" align="center-left">GND</text>
+<text x="-5" y="4" size="0.8128" layer="21" font="vector" ratio="12" rot="R270" align="center-left">nSEL</text>
+<text x="-3" y="4" size="0.8128" layer="21" font="vector" ratio="12" rot="R270" align="center-left">SCK</text>
+<text x="-1" y="4" size="0.8128" layer="21" font="vector" ratio="12" rot="R270" align="center-left">SDI</text>
+<text x="1" y="4" size="0.8128" layer="21" font="vector" ratio="12" rot="R270" align="center-left">nINT</text>
+<text x="3" y="4" size="0.8128" layer="21" font="vector" ratio="12" rot="R270" align="center-left">GND</text>
+<text x="5" y="4" size="0.8128" layer="21" font="vector" ratio="12" rot="R270" align="center-left">Vdd</text>
+<text x="7" y="4" size="0.8128" layer="21" font="vector" ratio="12" rot="R270" align="center-left">ANT</text>
 </package>
 <package name="DIL-2MM-2X06">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt; - 2MM"</description>
@@ -1701,7 +1681,7 @@ Please make sure your boards conform to these design rules.</description>
 <elements>
 <element name="U$1" library="rfm_12" package="RFM12" value="RFM12_SMDSMD" x="22.5" y="12.25" smashed="yes" rot="R270"/>
 <element name="C2" library="rcl" package="C0805" value="" x="2.31" y="17.16" smashed="yes" rot="R270">
-<attribute name="NAME" x="2.08" y="14.93" size="1.016" layer="25" rot="R270"/>
+<attribute name="NAME" x="2.25" y="14.75" size="1.27" layer="25" font="vector" rot="R270" align="center-left"/>
 <attribute name="VALUE" x="-0.23" y="18.43" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="U$2" library="rfm_12" package="DIL-2MM-2X06" value="RFM12_DIP" x="6.75" y="12.75" smashed="yes"/>
@@ -1709,7 +1689,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="0.77" y="18.205" size="1.27" layer="27"/>
 </element>
 <element name="C1" library="rcl" package="C0805" value="" x="31.5" y="8.25" smashed="yes" rot="R90">
-<attribute name="NAME" x="31.98" y="10.73" size="1.016" layer="25" rot="R90"/>
+<attribute name="NAME" x="31.5" y="10.75" size="1.27" layer="25" font="vector" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="34.04" y="6.98" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="U$3" library="SparkFun" package="OSHW-LOGO-S" value="" x="31.75" y="16.25"/>

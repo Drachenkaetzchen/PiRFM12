@@ -144,26 +144,6 @@
 <wire x1="-7" y1="6" x2="9" y2="6" width="0.127" layer="21"/>
 <wire x1="9" y1="6" x2="9" y2="-10" width="0.127" layer="21"/>
 <wire x1="9" y1="-10" x2="-7" y2="-10" width="0.127" layer="21"/>
-<wire x1="-4.382" y1="-6" x2="-5.5" y2="-4.882" width="0.127" layer="21" curve="-90"/>
-<wire x1="-5.5" y1="-4.882" x2="-5.5" y2="-4.618" width="0.127" layer="21"/>
-<wire x1="-5.5" y1="-4.618" x2="-4.382" y2="-3.5" width="0.127" layer="21" curve="-90"/>
-<wire x1="-4.382" y1="-3.5" x2="6.382" y2="-3.5" width="0.127" layer="21"/>
-<wire x1="6.382" y1="-3.5" x2="7.5" y2="-4.618" width="0.127" layer="21" curve="-90"/>
-<wire x1="7.5" y1="-4.618" x2="6.118" y2="-6" width="0.127" layer="21" curve="-90"/>
-<wire x1="6.118" y1="-6" x2="-4.382" y2="-6" width="0.127" layer="21"/>
-<wire x1="5.5" y1="2" x2="6.5" y2="2" width="0.127" layer="21"/>
-<wire x1="6.5" y1="2" x2="6.5" y2="0.5" width="0.127" layer="21"/>
-<wire x1="6.5" y1="0.5" x2="5.5" y2="0.5" width="0.127" layer="21"/>
-<wire x1="5.5" y1="0.5" x2="5.5" y2="2" width="0.127" layer="21"/>
-<wire x1="5.5" y1="-0.5" x2="5.5" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="5.5" y1="-1.5" x2="7.5" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="7.5" y1="-1.5" x2="7.5" y2="-0.5" width="0.127" layer="21"/>
-<wire x1="7.5" y1="-0.5" x2="5.5" y2="-0.5" width="0.127" layer="21"/>
-<wire x1="3.5" y1="1.5" x2="3.5" y2="0" width="0.127" layer="21"/>
-<wire x1="3.5" y1="0" x2="4.5" y2="0" width="0.127" layer="21"/>
-<wire x1="4.5" y1="0" x2="4.5" y2="1.5" width="0.127" layer="21"/>
-<wire x1="4.5" y1="1.5" x2="3.5" y2="1.5" width="0.127" layer="21"/>
-<circle x="-0.5" y="-0.635" radius="2.5" width="0.127" layer="21"/>
 <smd name="1" x="-5" y="-10" dx="1.5" dy="3" layer="1"/>
 <smd name="2" x="-3" y="-10" dx="1.5" dy="3" layer="1"/>
 <smd name="3" x="-1" y="-10" dx="1.5" dy="3" layer="1"/>
@@ -178,21 +158,21 @@
 <smd name="12" x="-1" y="6" dx="1.5" dy="3" layer="1"/>
 <smd name="13" x="-3" y="6" dx="1.5" dy="3" layer="1"/>
 <smd name="14" x="-5" y="6" dx="1.5" dy="3" layer="1"/>
-<text x="4" y="-4" size="1.27" layer="21" rot="R180">RFM12</text>
-<text x="-4.5" y="-8.23" size="0.6096" layer="21" rot="R90">SDO</text>
-<text x="-3" y="-8.23" size="0.6096" layer="21" rot="R90">nIRQ</text>
-<text x="-0.5" y="-8.23" size="0.6096" layer="21" rot="R90">FSK</text>
-<text x="1.5" y="-8.23" size="0.6096" layer="21" rot="R90">DCLK</text>
-<text x="3.5" y="-8.23" size="0.6096" layer="21" rot="R90">CLK</text>
-<text x="5" y="-8.23" size="0.6096" layer="21" rot="R90">nRES</text>
-<text x="7.5" y="-8.23" size="0.6096" layer="21" rot="R90">GND</text>
-<text x="-4.5" y="2.365" size="0.6096" layer="21" rot="R90">nSEL</text>
-<text x="-2.5" y="2.865" size="0.6096" layer="21" rot="R90">SCK</text>
-<text x="-0.5" y="2.865" size="0.6096" layer="21" rot="R90">SDI</text>
-<text x="1.5" y="2.365" size="0.6096" layer="21" rot="R90">nINT</text>
-<text x="3.5" y="2.865" size="0.6096" layer="21" rot="R90">GND</text>
-<text x="5.5" y="2.865" size="0.6096" layer="21" rot="R90">Vdd</text>
-<text x="7.5" y="2.865" size="0.6096" layer="21" rot="R90">ANT</text>
+<text x="1" y="-2" size="1.27" layer="21" rot="R180" align="center">RFM12</text>
+<text x="-5" y="-8" size="0.8128" layer="21" font="vector" ratio="12" rot="R90" align="center-left">SDO</text>
+<text x="-3" y="-8" size="0.8128" layer="21" font="vector" ratio="12" rot="R90" align="center-left">nIRQ</text>
+<text x="-1" y="-8" size="0.8128" layer="21" font="vector" ratio="12" rot="R90" align="center-left">FSK</text>
+<text x="1" y="-8" size="0.8128" layer="21" font="vector" ratio="12" rot="R90" align="center-left">DCLK</text>
+<text x="3" y="-8" size="0.8128" layer="21" font="vector" ratio="12" rot="R90" align="center-left">CLK</text>
+<text x="5" y="-8" size="0.8128" layer="21" font="vector" ratio="12" rot="R90" align="center-left">nRES</text>
+<text x="7" y="-8" size="0.8128" layer="21" font="vector" ratio="12" rot="R90" align="center-left">GND</text>
+<text x="-5" y="4" size="0.8128" layer="21" font="vector" ratio="12" rot="R270" align="center-left">nSEL</text>
+<text x="-3" y="4" size="0.8128" layer="21" font="vector" ratio="12" rot="R270" align="center-left">SCK</text>
+<text x="-1" y="4" size="0.8128" layer="21" font="vector" ratio="12" rot="R270" align="center-left">SDI</text>
+<text x="1" y="4" size="0.8128" layer="21" font="vector" ratio="12" rot="R270" align="center-left">nINT</text>
+<text x="3" y="4" size="0.8128" layer="21" font="vector" ratio="12" rot="R270" align="center-left">GND</text>
+<text x="5" y="4" size="0.8128" layer="21" font="vector" ratio="12" rot="R270" align="center-left">Vdd</text>
+<text x="7" y="4" size="0.8128" layer="21" font="vector" ratio="12" rot="R270" align="center-left">ANT</text>
 </package>
 <package name="DIL-2MM-2X06">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt; - 2MM"</description>
